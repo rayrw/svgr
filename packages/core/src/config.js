@@ -19,6 +19,7 @@ export const DEFAULT_CONFIG = {
   runtimeConfig: true,
   plugins: null,
   namedExport: 'ReactComponent',
+  forceNamedExport: false,
 }
 
 const explorer = cosmiconfig('svgr', {
